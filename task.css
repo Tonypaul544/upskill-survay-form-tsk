@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: auto;
+
+}
+
+body {
+  background-image: url(pexels-photo-5530447.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.header {
+  text-align: center;
+  margin: 30px;
+}
+
+h1 {
+  color: white;
+}
+
+.container {
+  border-radius: 5px;
+  background: rgba(7, 44, 38, 0.8);
+  width: 400px;
+  height: auto;
+  box-shadow: 0 10px 35px 2px rgb(135, 149, 142);
+  padding: 10px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.form #name, select {
+  margin: 4px 0 15px 0;
+  width: 93%;
+  padding: 3px 10px;
+  border: 1.6px darkseagreen solid;
+  border-radius: 3px;
+}
+
+/* .form {
+  color: white;
+  gap: 45px;
+} */
+
+form #recommend, #Language {
+  margin-bottom: 13px;
+  padding: 0;
+}
+
+.form2 {
+  margin: 20px 0;
+}
+
+.form2 input, label {
+  margin-bottom: 15px;
+}
+
+.form3 input, label {
+  margin-bottom: 15px;
+}
+
+.comment {
+  width: 95%;
+  height: 40px;
+  border: 1.7px solid gray;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px 0;
+}
+
+.submit {
+  width: 90%;
+  height: 30px;
+  margin: 7px 20px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+}
+
+/* Android devices */
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) and (-webkit-device-pixel-ratio: 2) {
+  body {
+    background-image: url(istockphoto-2057758516-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  .container {
+    border-radius: 10px;
+    background: rgba(7, 44, 38, 0.8);
+    width: 300px;
+    height: auto;
+    box-shadow: 0 10px 35px 2px rgb(135, 149, 142);
+    padding: 10px;
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+}
